@@ -1,0 +1,72 @@
+
+main {
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 5px;
+    width: 800px;
+    height: 600px;
+    padding: 5px;
+}
+
+h2 {
+    
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#text-input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#add-button {
+    padding: 7px 1px;
+    border: none;
+    
+}
+
+.todos-container {
+    overflow-y: scroll;
+}
+
+.todo-item-container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#todo-text {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    user-select: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: blue;
+}
+
+#edit-button,
+#delete-button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
